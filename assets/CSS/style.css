@@ -415,20 +415,15 @@ header .container nav .icon {
 
     #destination .container .left,
     #destination .container .right:not(.bottom .right) {
-        width: 75%;
+        width: 80%;
     }
 
     #destination .container .right ul li a {
-        padding: 10px 15px;
+        padding: 10px;
     }
 
     #destination .container .right h2 {
         font-size: 4rem;
-        text-align: center;
-    }
-
-    #destination .container .right p {
-        text-align: center;
     }
 
     #destination .container .right .bottom p {
