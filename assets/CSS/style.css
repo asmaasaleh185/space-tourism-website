@@ -83,16 +83,15 @@ header .container {
 }
 
 header .container .logo {
-    width: 5%;
+    min-width: 5%;
 }
 
 header .container .logo img {
-    width: 100%;
+    /* width: 100%; */
 }
 
 header .container nav {
     width: 60%;
-    /* margin: 2rem; */
     backdrop-filter: blur(1.5rem);
     background-color: rgba(255, 255, 255, 0.03);
 }
@@ -101,8 +100,6 @@ header .container nav ul {
     width: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-    /* flex-wrap: wrap; */
 }
 
 header .container nav ul li a {
@@ -409,6 +406,7 @@ header .container nav .icon {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: -25px;
     }
 
     #destination .container .left {
@@ -422,6 +420,15 @@ header .container nav .icon {
 
     #destination .container .right ul li a {
         padding: 10px 15px;
+    }
+
+    #destination .container .right h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    #destination .container .right p {
+        text-align: center;
     }
 
     #destination .container .right .bottom p {
@@ -539,6 +546,10 @@ header .container nav .icon {
         text-align: center;
     }
 
+    #crew .container .crew-name {
+        font-size: 55px;
+    }
+
     #crew .container .right {
         order: 0;
         margin: 0 0 10px;
@@ -555,7 +566,7 @@ header .container nav .icon {
         content: "";
         position: absolute;
         left: -20%;
-        bottom: 0;
+        bottom: 2px;
         width: 140%;
         height: 2px;
         background-color: #3d3e3f;
@@ -675,7 +686,7 @@ header .container nav .icon {
         content: "";
         position: absolute;
         left: -20%;
-        bottom: 0;
+        bottom: 2px;
         width: 140%;
         height: 2px;
         background-color: #3d3e3f;
